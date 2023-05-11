@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+@font-face {
+    font-family: mojaczcionka;
+    src: url(czcionka/InstrumentSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+div{
+    width: 800px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: mojaczcionka;
+}
+body{
+    font-family: mojaczcionka;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#main{
+    background-image: url(imagines/bad1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+#stopa{
+    font-size: small;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-family: mojaczcionka;
+}
+#tak{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: mojaczcionka;
+}
+.text2{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: mojaczcionka;
+}
+.zas1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: mojaczcionka;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 10px;
+    margin: 0 auto;
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    color: rgb(238, 155, 155);
+    position: relative;
+    overflow-y: scroll;
+    font-family: mojaczcionka;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.lip{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+.lip a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    font-size: 30px;
+}
+.lip a:hover{
+    color: greenyellow;
+}
+img{
+    width: 300px;
+
+}
+#lolo{
+    display: flex;
+    margin: 0 auto;
+}
+#img{
+    justify-content: right;
+    display: flex;
+    width: 400px;
+}
+#te{
+    display: flex;
+}
+.cos{
+    text-align: center;
+}
+#kort{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+#zdj1{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+#zdj3{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+#zdj2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.zdjecia{
+    width: 400px;
+}
+.zdjecia2{
+    max-height: 600px;
+    width: 450px;
+}
+.zdjecia3{
+    width: 800px;
+}
+#zdj4{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+iframe{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 560px;
+    height: 315px;
+}
+@media print{
+    *{
+        background-color: white;
+        color: black;
+    }
+    iframe{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .main{
+        width: 80%;
+        padding: 0;
+    }
+    #zdj4{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #zdj3{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #zdj2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #zdj{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #kort{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #te{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #img{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #lolo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    .zdjecia{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    .zdjecia2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    .zdjecia3{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    iframe{
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 260px;
+    }
+}
